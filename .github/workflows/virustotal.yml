@@ -1,0 +1,23 @@
+name: VirusTotal Scan
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: VirusTotal Check
+        uses: crazy-max/ghaction-virustotal@v4.0.0
+        with:
+          vt_api_key: ${{ secrets.VT_API_KEY }}
+          files: |
+            ACT.bat
+            ACT.ps1
+            Activation W11.bat
+            Remove W11.bat

@@ -1,5 +1,5 @@
 # W11 Easy Activation
-<strong>Checked only for Pro version</strong></br>
+[![VirusTotal Scan](https://github.com/whonion/W11_Easy_Act/actions/workflows/virustotal.yml/badge.svg)](https://github.com/whonion/W11_Easy_Act/actions/workflows/virustotal.yml)<br>
 Activating Windows 11 in the built-in way via a third-party KMS server
 
 Specify the key corresponding to your edition of the system.
